@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="slider_style.css">
+
+<script src="flex_slider_4.1.mini.js" ></script>
+
+<div class="wolfslider">
+<div class="warpper">
+	<div class="slide" style="background-color:red;">
+		<img src="img/1.jpg" />
+		<p class="caption">Caption 1</p>
+	</div>
+	<div class="slide" style="background-color:orange;">
+		<img src="img/1.jpg" />
+		<p class="caption">Caption 2</p>
+	</div>
+	<div class="slide" style="background-color:blue;">
+		<img src="img/1.jpg" />
+		<p class="caption">Caption 3</p>
+	</div>
+	<div class="slide" style="background-color:yellow;">
+		<img src="img/1.jpg" />
+		<p class="caption">Caption 4</p>
+	</div>
+	<div class="slide" style="background-color:green;">
+		<img src="img/1.jpg" />
+		<p class="caption">Caption 5</p>
+	</div>
+	<div class="slide" style="background-color:lightblue;">
+		<img src="img/1.jpg" />
+		<p class="caption">Caption 6</p>
+	</div>
+  </div>
+  <a class="next_b" style="right:0px;bottom:0;">NEXT</a>
+  <a class="prev_b" style="left:0px;bottom:0;">PREV</a>
+</div>
+
+
+<script type="text/javascript">
+flex_slider_options = {
+  vertical_scroll: false,
+  transition_time: 1000,
+  touch_scrolling: true,
+  threshold: 150,
+  allowedTime: 500
+}
+flexslider('.wolfslider');
+</script>
