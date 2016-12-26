@@ -3,7 +3,7 @@
 Ultra light Responsive Slider
 
 - Infinite Scroll Support
-- Mobile Touch Support
+- Touch Device Support
 - CSS animations on inside slide elements
 - Direction of sliding can be change as you want (left, right, center fade, any corner of container, up, down)..
 - All browsers supported
@@ -19,7 +19,6 @@ Ultra light Responsive Slider
 - You can apply same js code for multiple sliders... ( NO LIMITS )
 - Code size is very very small
 - No need of jquery or any external js plugins.
-- It also support touch devices.
 
 
 Drawbacks or bug hasn't found yet
